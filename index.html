@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>A Little Question 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="hearts-canvas"></canvas>
+
+  <div class="card" id="main-card">
+
+    <!-- Question Flow -->
+    <div id="question-screen">
+      <div class="img-wrapper">
+        <img id="q-img" src="https://media.tenor.com/tsFBHGxponYAAAAi/bubu-dudu.gif" alt="gif">
+      </div>
+      <div class="question" id="question-text">Will you go out with me?</div>
+      <div class="subtitle"  id="subtitle-text"></div>
+      <div class="btn-row">
+        <button class="btn btn-yes" id="btn-yes" onclick="handleYes()">Yes</button>
+        <button class="btn btn-no"  id="btn-no"  onclick="handleNo()">No</button>
+      </div>
+    </div>
+
+    <!-- Final Screen (shown after YES) -->
+    <div class="final-screen" id="final-screen">
+      <img class="final-img" src="https://media1.tenor.com/m/adNdNxSschkAAAAC/peach-goma-goma-peach.gif" alt="final gif">
+      <div class="final-text">Hehehehe,<br>I knew it batu.. 🥰</div>
+      <div class="final-sub">Finally! 🎉</div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
